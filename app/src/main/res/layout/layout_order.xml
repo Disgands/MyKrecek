@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/order_user_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/order_phone_number"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Nomor telepon"
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginRight="2dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/order_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            />
+
+        <TextView
+            android:id="@+id/order_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_total_price"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/order_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waktu dan tanggal"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_address_city"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_date_time"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/pembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembayaran"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/status"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/show_all_products_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="10dp"
+            android:text="Tampilkan semua produk"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/pembayaran"
+            />
+        <LinearLayout
+            android:id="@+id/linearku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/show_all_products_btn"
+            android:gravity="center">
+        <Button
+            android:id="@+id/konfirmasi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:text="Konfirmasi"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:background="#44C100"
+            android:layout_below="@+id/show_all_products_btn"
+            />
+            <Button
+                android:id="@+id/selesai"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:text="Selesai"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:background="#F30000"
+                android:layout_below="@+id/show_all_products_btn"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/proses_pengiriman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesanan anda dalam proses pengiriman, silahkan menunggu pesanan anda"
+            android:layout_below="@+id/linearku"
+            android:textAlignment="center"
+            android:textColor="#DF0000"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

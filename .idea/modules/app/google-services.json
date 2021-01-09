@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "517525450008",
+    "firebase_url": "https://mykrecek.firebaseio.com",
+    "project_id": "mykrecek",
+    "storage_bucket": "mykrecek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517525450008:android:c426139ed590af5789426d",
+        "android_client_info": {
+          "package_name": "com.tika.mykrecek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517525450008-odsf9a08aec74tfi4mlodffoe40ldq2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tika.mykrecek",
+            "certificate_hash": "ae06ab9e48116a76478b911da661292bf12a3431"
+          }
+        },
+        {
+          "client_id": "517525450008-v5q742soh3u3t826podu2o3q3gr6d0er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpJYOoMxhNl9YUti_yt5_Wu6KNTLeTWVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517525450008-v5q742soh3u3t826podu2o3q3gr6d0er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

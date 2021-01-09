@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserTransferActivity"
+    android:orientation="vertical"
+    android:background="#E8E8E8"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20px"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesanan Telah Dibuat"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan melakukan pembayaran \n ke rekening BRI a/n TIKA \n 0070-XX-XXXXXX-XX-X \n sesuai dengan total pemesanan"
+            android:textSize="18dp"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Untuk selanjutnya silahkan menghubungi kontak kami di : \n 0822-XXXX-XXXX \n \n Terimakasih Sudah Memesan"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:text="Selesai"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
